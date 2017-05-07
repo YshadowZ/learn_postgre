@@ -1,0 +1,14 @@
+{
+  "plugins": ["node"],
+  "extends": ["eslint:recommended", "plugin:node/recommended"],
+  "rules": {
+      "node/exports-style": ["error", "module.exports"],
+      "no-console": 0
+  },
+  "env": {
+    "browser": false,
+    "node": true,
+    "es6": true
+  },
+  "parserOptions": {"ecmaVersion": 2017}
+}
